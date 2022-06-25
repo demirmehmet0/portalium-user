@@ -1,0 +1,24 @@
+{
+    "name": "portalium/user",
+    "description": "user",
+    
+    "authors": [
+        {
+            "name": "demirmehmet0",
+            "email": "demirmehmet0@yahoo.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Portalium\\User\\Providers\\PortaliumUserServiceProvider"
+            ]
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Portalium\\User\\": "src/"
+        }
+    }
+}
